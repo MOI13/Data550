@@ -1,0 +1,7 @@
+# Ignore all .rds files in the output directory
+output/*.rds
+
+# Ignore all .html files in the project directory
+*.html
+
+.random_numbers
