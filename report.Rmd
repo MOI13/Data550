@@ -1,5 +1,5 @@
 ---
-title: Three sets of random numbers
+title: Four sets of random numbers
 author: You
 output: html_document
 ---
@@ -21,6 +21,10 @@ random_numbers2 <- readRDS(
 
 random_numbers3 <- readRDS(
   here::here("output/random_numbers3.rds")
+)
+
+random_numbers4 <- readRDS(
+  here::here("output/random_numbers4.rds")
 )
 ```
 
@@ -44,3 +48,11 @@ hist(random_numbers2)
 #| fig.cap = "Third set of random numbers"
 hist(random_numbers3)
 ```
+
+# Random numbers 4
+
+```{r, random-numbers4-histogram}
+#| fig.cap = "Forth set of random numbers"
+hist(random_numbers4)
+```
+
